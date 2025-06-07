@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>lahelu_meme_generator</string>
+	<string>Lahelu Meme Generator</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,139 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to your camera to capture product images for uploading and listing.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app requires your location to provide accurate map data and location-based services even when the app is in the background.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires your location to provide accurate map data and location-based services at all times, including when the app is not in use.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires your location to provide accurate map data and location-based services while the app is in use.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to your photo library to select and upload product images.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MontserratAlternates-Black.ttf</string>
+		<string>MontserratAlternates-BlackItalic.ttf</string>
+		<string>MontserratAlternates-Bold.ttf</string>
+		<string>MontserratAlternates-BoldItalic.ttf</string>
+		<string>MontserratAlternates-ExtraBold.ttf</string>
+		<string>MontserratAlternates-ExtraBoldItalic.ttf</string>
+		<string>MontserratAlternates-ExtraLight.ttf</string>
+		<string>MontserratAlternates-ExtraLightItalic.ttf</string>
+		<string>MontserratAlternates-Italic.ttf</string>
+		<string>MontserratAlternates-Light.ttf</string>
+		<string>MontserratAlternates-LightItalic.ttf</string>
+		<string>MontserratAlternates-Medium.ttf</string>
+		<string>MontserratAlternates-MediumItalic.ttf</string>
+		<string>MontserratAlternates-Regular.ttf</string>
+		<string>MontserratAlternates-SemiBold.ttf</string>
+		<string>MontserratAlternates-SemiBoldItalic.ttf</string>
+		<string>MontserratAlternates-Thin.ttf</string>
+		<string>MontserratAlternates-ThinItalic.ttf</string>
+		<string>Nunito-Black.ttf</string>
+		<string>Nunito-BlackItalic.ttf</string>
+		<string>Nunito-Bold.ttf</string>
+		<string>Nunito-BoldItalic.ttf</string>
+		<string>Nunito-ExtraBold.ttf</string>
+		<string>Nunito-ExtraBoldItalic.ttf</string>
+		<string>Nunito-ExtraLight.ttf</string>
+		<string>Nunito-ExtraLightItalic.ttf</string>
+		<string>Nunito-Italic.ttf</string>
+		<string>Nunito-Light.ttf</string>
+		<string>Nunito-LightItalic.ttf</string>
+		<string>Nunito-Regular.ttf</string>
+		<string>Nunito-SemiBold.ttf</string>
+		<string>Nunito-SemiBoldItalic.ttf</string>
+		<string>Arial.ttf</string>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-BlackItalic.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-BoldItalic.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-ExtraBoldItalic.ttf</string>
+		<string>Poppins-ExtraLight.ttf</string>
+		<string>Poppins-ExtraLightItalic.ttf</string>
+		<string>Poppins-Italic.ttf</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-LightItalic.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-MediumItalic.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-SemiBoldItalic.ttf</string>
+		<string>Poppins-Thin.ttf</string>
+		<string>Poppins-ThinItalic.ttf</string>
+		<string>Roboto-Black.ttf</string>
+		<string>Roboto-BlackItalic.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-BoldItalic.ttf</string>
+		<string>Roboto-ExtraBold.ttf</string>
+		<string>Roboto-ExtraBoldItalic.ttf</string>
+		<string>Roboto-ExtraLight.ttf</string>
+		<string>Roboto-ExtraLightItalic.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-LightItalic.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-MediumItalic.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-SemiBold.ttf</string>
+		<string>Roboto-SemiBoldItalic.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>Roboto-ThinItalic.ttf</string>
+		<string>Roboto_Condensed-Black.ttf</string>
+		<string>Roboto_Condensed-BlackItalic.ttf</string>
+		<string>Roboto_Condensed-Bold.ttf</string>
+		<string>Roboto_Condensed-BoldItalic.ttf</string>
+		<string>Roboto_Condensed-ExtraBold.ttf</string>
+		<string>Roboto_Condensed-ExtraBoldItalic.ttf</string>
+		<string>Roboto_Condensed-ExtraLight.ttf</string>
+		<string>Roboto_Condensed-ExtraLightItalic.ttf</string>
+		<string>Roboto_Condensed-Italic.ttf</string>
+		<string>Roboto_Condensed-Light.ttf</string>
+		<string>Roboto_Condensed-LightItalic.ttf</string>
+		<string>Roboto_Condensed-Medium.ttf</string>
+		<string>Roboto_Condensed-MediumItalic.ttf</string>
+		<string>Roboto_Condensed-Regular.ttf</string>
+		<string>Roboto_Condensed-SemiBold.ttf</string>
+		<string>Roboto_Condensed-SemiBoldItalic.ttf</string>
+		<string>Roboto_Condensed-Thin.ttf</string>
+		<string>Roboto_Condensed-ThinItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Black.ttf</string>
+		<string>Roboto_SemiCondensed-BlackItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Bold.ttf</string>
+		<string>Roboto_SemiCondensed-BoldItalic.ttf</string>
+		<string>Roboto_SemiCondensed-ExtraBold.ttf</string>
+		<string>Roboto_SemiCondensed-ExtraBoldItalic.ttf</string>
+		<string>Roboto_SemiCondensed-ExtraLight.ttf</string>
+		<string>Roboto_SemiCondensed-ExtraLightItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Italic.ttf</string>
+		<string>Roboto_SemiCondensed-Light.ttf</string>
+		<string>Roboto_SemiCondensed-LightItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Medium.ttf</string>
+		<string>Roboto_SemiCondensed-MediumItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Regular.ttf</string>
+		<string>Roboto_SemiCondensed-SemiBold.ttf</string>
+		<string>Roboto_SemiCondensed-SemiBoldItalic.ttf</string>
+		<string>Roboto_SemiCondensed-Thin.ttf</string>
+		<string>Roboto_SemiCondensed-ThinItalic.ttf</string>
+		<string>times.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
 </dict>
 </plist>
