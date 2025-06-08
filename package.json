@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "build-apk": "cd android && ./gradlew assembleRelease && cd ..",
     "clean-android": "cd android && ./gradlew clean && cd .. && react-native run-android",
     "ios-devices": "xcrun simctl list devices",
     "android-devices": "emulator -list-avds",
